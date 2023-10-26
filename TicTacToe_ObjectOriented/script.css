@@ -1,0 +1,40 @@
+/* Apply basic styling to the Tic-Tac-Toe board */
+#board {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style the status message and restart button */
+#status {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#restart {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: #0056b3;
+}
